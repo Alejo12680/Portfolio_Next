@@ -1,10 +1,15 @@
+import Layout from "../components/Layout";
 
-const _error = () => {
+const _error = ({ statusCode }) => {
   return (
-    <div>
-      <h1>Algo salió mal, lo sentimos</h1>
-    </div>
-  )
-}
+    <Layout title="Algo salió mal" footer={false}>
+      <p className="text-center">
+        {statusCode
+          ? `No se han podido cargar sus datos de usuario: Código de estado ${statusCode}`
+          : "Lo sentimos, no se pudo obtener esa página."}
+      </p>
+    </Layout>
+  );
+};
 
-export default _error
+export default _error;
