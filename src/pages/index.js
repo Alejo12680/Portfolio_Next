@@ -10,11 +10,11 @@ const Index = () => (
       <div className="col-md-12">
         <div className="card card-body bg-secondary text-light animate__animated animate__fadeIn">
           <div className="row">
-            <div className="col-md-4 text-center">
-              <img src="/ines.png" alt="" className="img-fluid" />
+            <div className="col-md-3 text-center">
+              <img src="profail.jpg" alt="" className="img-fluid rounded mx-auto d-block" />
             </div>
             <div className="col-md-8">
-              <h1>Inés María Oliveros</h1>
+              <h1>Fabio Alejandro Ramirez Saavedra</h1>
               <h3>FullStack Developer</h3>
               <p>
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit.
